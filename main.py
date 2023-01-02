@@ -23,3 +23,8 @@ def produit():
 
 produit()
 
+phrase=input("tu marques et je cherche: ")
+chercheur=('e' in phrase)
+
+if chercheur:
+    print("Y'a un e mec... c'est pas bien t'es un mauvais garçon")
